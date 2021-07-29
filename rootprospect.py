@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit as fit
 
 class GemGatherData:
   def __init__(self, **kwargs):
